@@ -52,13 +52,13 @@ const Page = () => {
             Skills
           </Heading>
           <Paragraph>
-            Full Stack Web-Entwickler mit Fokus auf Frontend. Am meisten
-            Erfahrung gesammelt mit dem Framework Angular und erste
-            Berührungspunkte mit React. Erste Backend-Projekte umgesetzt mit
-            NodeJS oder NestJS.
+            Full Stack Web-Entwickler mit Fokus auf Frontend. Angular ist mein
+            bevorzugtes Framework, zudem habe ich auch erste Kenntnisse in
+            React/NextJS gesammelt. Backend-Projekte setze ich am liebsten mit
+            NodeJS oder NestJS um.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/projects">
+            <NextLink href="/projects" passHref>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Meine Projekte
               </Button>
