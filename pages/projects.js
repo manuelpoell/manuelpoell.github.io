@@ -4,6 +4,7 @@ import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import thumbTTSCEggenburg from '../public/images/projects/ttsc-eggenburg.png'
+import thumbAdviceGenerator from '../public/images/projects/advice-generator.png'
 
 const Projects = () => {
   return (
@@ -21,6 +22,13 @@ const Projects = () => {
               thumbnail={thumbTTSCEggenburg}
             >
               Homepage für den Tischtennis-Verein Eggenburg
+            </ProjectGridItem>
+            <ProjectGridItem
+              id="advice-generator"
+              title="Advice Generator"
+              thumbnail={thumbAdviceGenerator}
+            >
+              Advice Generator Challenge von Frontend Mentor
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
