@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import thumbTTSCEggenburg from '../public/images/projects/ttsc-eggenburg.png'
 import thumbAdviceGenerator from '../public/images/projects/advice-generator.png'
+import thumbPlanetsFacts from '../public/images/projects/planets-facts.png'
 
 const Projects = () => {
   return (
@@ -15,20 +16,31 @@ const Projects = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+          <Section delay={0.1}>
             <ProjectGridItem
-              id="ttsc-eggenburg"
-              title="Homepage TTSC Sparkasse Eggenburg"
-              thumbnail={thumbTTSCEggenburg}
+              id="planets-facts"
+              title="Planets Facts"
+              thumbnail={thumbPlanetsFacts}
             >
-              Homepage für den Tischtennis-Verein Eggenburg
+              Planets Facts Challenge von Frontend Mentor
             </ProjectGridItem>
+          </Section>
+          <Section delay={0.2}>
             <ProjectGridItem
               id="advice-generator"
               title="Advice Generator"
               thumbnail={thumbAdviceGenerator}
             >
               Advice Generator Challenge von Frontend Mentor
+            </ProjectGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <ProjectGridItem
+              id="ttsc-eggenburg"
+              title="Homepage TTSC Sparkasse Eggenburg"
+              thumbnail={thumbTTSCEggenburg}
+            >
+              Homepage für den Tischtennis-Verein Eggenburg
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
