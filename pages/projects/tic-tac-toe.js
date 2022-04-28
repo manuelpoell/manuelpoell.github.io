@@ -6,52 +6,48 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
   return (
-    <Layout title="Advice Generator">
+    <Layout title="Tic Tac Toe">
       <Container>
         <Title>
-          Advice Generator <Badge>2022</Badge>
+          Tic Tac Toe <Badge>2022</Badge>
         </Title>
         <P>
-          Meine Lösung zur Advice Generator Challenge von{' '}
+          Meine Lösung zur Tic Tac Toe Challenge von{' '}
           <Link href="https://www.frontendmentor.io/" target="_blank">
             Frontend Mentor
           </Link>
-          . Die Aufgabe war es, das bereitgestellte Design umzusetzen und eine
-          funktionsfähige Web-Applikation nachzubauen. Die dargestellen Texte
-          werden nach Klick auf den Button von der{' '}
-          <Link href="https://api.adviceslip.com/" target="_blank">
-            Advice Slip JSON API
-          </Link>{' '}
-          abgeholt.
+          . Ziel der Challenge: Ein funktionsfähiges Tic Tac Toe - Spiel
+          möglichst genau nach dem bereitgestellten Responsive Design für
+          Desktop, Tablets und Smartphones umzusetzen.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
             <Link
-              href="https://manuelpoell.github.io/advice-generator/"
+              href="https://manuelpoell.github.io/tic-tac-toe/"
               target="_blank"
             >
-              https://manuelpoell.github.io/advice-generator/{' '}
+              https://manuelpoell.github.io/tic-tac-toe/{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Code</Meta>
             <Link
-              href="https://github.com/manuelpoell/advice-generator"
+              href="https://github.com/manuelpoell/tic-tac-toe"
               target="_blank"
             >
-              https://github.com/manuelpoell/advice-generator{' '}
+              https://github.com/manuelpoell/tic-tac-toe{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Frontend Mentor</Meta>
             <Link
-              href="https://www.frontendmentor.io/solutions/reactnextjs-advicegenerator-_Ep1R5NKP"
+              href="https://www.frontendmentor.io/solutions/tic-tac-toe-using-reactnextjs-Hy4aacES5"
               target="_blank"
             >
-              https://www.frontendmentor.io/solutions/reactnextjs-advicegenerator-_Ep1R5NKP{' '}
+              https://www.frontendmentor.io/solutions/tic-tac-toe-using-reactnextjs-Hy4aacES5{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -61,11 +57,15 @@ const Project = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/advice-generator-1.png"
+          src="/images/projects/tic-tac-toe-menu.png"
           alt="Advice Generator"
         />
         <ProjectImage
-          src="/images/projects/advice-generator-2.png"
+          src="/images/projects/tic-tac-toe-game.png"
+          alt="Advice Generator"
+        />
+        <ProjectImage
+          src="/images/projects/tic-tac-toe-endscreen.png"
           alt="Advice Generator"
         />
       </Container>

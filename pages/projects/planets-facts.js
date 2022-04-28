@@ -63,7 +63,15 @@ const Project = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/planets-facts.png"
+          src="/images/projects/planets-facts-earth-1.png"
+          alt="Planets Facts"
+        />
+        <ProjectImage
+          src="/images/projects/planets-facts-earth-2.png"
+          alt="Planets Facts"
+        />
+        <ProjectImage
+          src="/images/projects/planets-facts-earth-3.png"
           alt="Planets Facts"
         />
       </Container>

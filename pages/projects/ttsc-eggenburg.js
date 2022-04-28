@@ -28,7 +28,11 @@ const Project = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/ttsc-eggenburg.png"
+          src="/images/projects/ttsc-eggenburg-1.png"
+          alt="TTSC Sparkasse Eggenburg"
+        />
+        <ProjectImage
+          src="/images/projects/ttsc-eggenburg-2.png"
           alt="TTSC Sparkasse Eggenburg"
         />
       </Container>
