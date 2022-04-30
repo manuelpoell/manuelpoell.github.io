@@ -52,10 +52,10 @@ const Page = () => {
             Skills
           </Heading>
           <Paragraph>
-            Full Stack Web-Entwickler mit Fokus auf Frontend. Angular ist mein
-            bevorzugtes Framework, zudem habe ich auch erste Kenntnisse in
-            React/NextJS gesammelt. Backend-Projekte setze ich am liebsten mit
-            NodeJS oder NestJS um.
+            Full Stack Web-Entwickler aus Niederösterreich. Web-Applikationen
+            mit Responsive Design umgesetzt mit den Frameworks Angular und
+            React/NextJS. Backend-Anwendungen mit NodeJS und dem darauf
+            basierenden Framework NestJS.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref>
