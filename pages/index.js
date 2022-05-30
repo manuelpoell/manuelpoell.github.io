@@ -41,7 +41,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/profile-picture-placeholder.jpg"
+              src="/images/manuel_poell.jpeg"
               alt="Profile Picture"
             />
           </Box>
