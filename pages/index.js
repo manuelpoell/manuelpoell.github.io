@@ -16,11 +16,13 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import WordCloud from '../components/word-cloud'
 
 const Page = () => {
   return (
     <Layout>
       <Container>
+        <WordCloud />
         <Box display={{ md: 'flex' }} mt={10}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
