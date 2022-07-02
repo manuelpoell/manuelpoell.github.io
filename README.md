@@ -12,4 +12,5 @@
 - [Framer Motion](https://www.framer.com/motion/) - An animation library for React
 
 ## Inspired by
+
 [Takuya Matsuyama](https://www.craftz.dog/)
