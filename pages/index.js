@@ -108,6 +108,16 @@ const Page = () => {
 
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
+            Zertifikate
+          </Heading>
+          <BioSection>
+            <BioYear>Okt. 2022</BioYear>
+            Ingenieur &quot;Elektronik und technische Informatik&quot;
+          </BioSection>
+        </Section>
+
+        <Section delay={0.5}>
+          <Heading as="h3" variant="section-title">
             Kontakt
           </Heading>
           <List>
