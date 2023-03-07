@@ -72,7 +72,11 @@ const Page = () => {
           </Box>
           <Box>
             <Meta>Backend</Meta>
-            NodeJS, NestJS, MongoDB
+            NodeJS, Go
+          </Box>
+          <Box>
+            <Meta>Datenbanken</Meta>
+            MySQL, Redis, MongoDB
           </Box>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref>
