@@ -7,6 +7,7 @@ import thumbTTSCEggenburg from '../public/images/projects/ttsc-eggenburg-1.png'
 import thumbAdviceGenerator from '../public/images/projects/advice-generator-1.png'
 import thumbPlanetsFacts from '../public/images/projects/planets-facts-earth-1.png'
 import thumbTicTacToe from '../public/images/projects/tic-tac-toe-menu.png'
+import thumbSIT from '../public/images/projects/sit-2.png'
 
 const Projects = () => {
   return (
@@ -19,6 +20,15 @@ const Projects = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.1}>
             <ProjectGridItem
+              id="owlbear-rodeo-sit"
+              title="SIT"
+              thumbnail={thumbSIT}
+            >
+              Initiative Tracker Extension für Owlbear Rodeo
+            </ProjectGridItem>
+          </Section>
+          <Section delay={0.2}>
+            <ProjectGridItem
               id="tic-tac-toe"
               title="Tic Tac Toe"
               thumbnail={thumbTicTacToe}
@@ -26,7 +36,7 @@ const Projects = () => {
               Tic Tac Toe Challenge von Frontend Mentor
             </ProjectGridItem>
           </Section>
-          <Section delay={0.2}>
+          <Section delay={0.3}>
             <ProjectGridItem
               id="planets-facts"
               title="Planets Facts"
@@ -35,7 +45,7 @@ const Projects = () => {
               Planets Facts Challenge von Frontend Mentor
             </ProjectGridItem>
           </Section>
-          <Section delay={0.3}>
+          <Section delay={0.4}>
             <ProjectGridItem
               id="advice-generator"
               title="Advice Generator"
@@ -44,7 +54,7 @@ const Projects = () => {
               Advice Generator Challenge von Frontend Mentor
             </ProjectGridItem>
           </Section>
-          <Section delay={0.4}>
+          <Section delay={0.5}>
             <ProjectGridItem
               id="ttsc-eggenburg"
               title="Homepage TTSC Sparkasse Eggenburg"
