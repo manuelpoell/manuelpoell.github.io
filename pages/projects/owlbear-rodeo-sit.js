@@ -12,7 +12,7 @@ const Project = () => {
           SIT <Badge>2023</Badge>
         </Title>
         <P>
-          <Link href="https://www.owlbear.app/" target="_blank">
+          <Link href="https://www.owlbear.rodeo/" target="_blank">
             Owlbear Rodeo
           </Link>{' '}
           ist ein Online Tabletop Tool. Die SIT Extension wurde für das
@@ -22,11 +22,19 @@ const Project = () => {
           Spieleffekte eingetragen werden, welche bei Ablauf eine Notification
           auslösen.
         </P>
+        <P>
+          Die SIT Extension wurde am 10. Juli 2023 anerkannt und in den
+          offiziellen{' '}
+          <Link href="https://extensions.owlbear.rodeo/" target="_blank">
+            Owlbear Rodeo Extension Store
+          </Link>{' '}
+          aufgenommen.
+        </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Owlbear Rodeo</Meta>
-            <Link href="https://www.owlbear.app/" target="_blank">
-              https://www.owlbear.app/ <ExternalLinkIcon mx="2px" />
+            <Meta>Extension Store</Meta>
+            <Link href="https://extensions.owlbear.rodeo/sit" target="_blank">
+              https://extensions.owlbear.rodeo/sit <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
