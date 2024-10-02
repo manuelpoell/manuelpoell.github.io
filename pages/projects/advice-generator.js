@@ -28,10 +28,10 @@ const Project = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link
-              href="https://manuelpoell.github.io/advice-generator/"
+              href="https://advice-generator.manuelpoell.at/"
               target="_blank"
             >
-              https://manuelpoell.github.io/advice-generator/{' '}
+              https://advice-generator.manuelpoell.at/{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

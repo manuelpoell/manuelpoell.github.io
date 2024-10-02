@@ -23,12 +23,8 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link
-              href="https://manuelpoell.github.io/tic-tac-toe/"
-              target="_blank"
-            >
-              https://manuelpoell.github.io/tic-tac-toe/{' '}
-              <ExternalLinkIcon mx="2px" />
+            <Link href="https://tic-tac-toe.manuelpoell.at/" target="_blank">
+              https://tic-tac-toe.manuelpoell.at/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
