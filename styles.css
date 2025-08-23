@@ -1,0 +1,63 @@
+:root {
+  --bg: #1a1b26;
+  --primary: #c0caf5;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #fffff7;
+    --primary: #1a1b26;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--primary);
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.gradient {
+  background: linear-gradient(30deg, #2323ff, #ff130f);
+  background-clip: text;
+  color: transparent;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  clip-path: circle(40%);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  width: 90%;
+  color: var(--primary);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 12px;
+  transition: transform 0.2s ease;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
